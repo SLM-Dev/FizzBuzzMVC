@@ -33,7 +33,7 @@ namespace FizzBuzzMVC.Controllers
             model.BuzzValue = 5;
 
             return View(model);
-        }
+        } 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult FBPage(FizzBuzz fizzbuzz)
